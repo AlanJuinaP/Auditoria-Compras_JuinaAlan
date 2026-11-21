@@ -1,0 +1,28 @@
+{
+  "name": "auditoria-compras",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanJuinaP/Auditoria-Compras_JuinaAlan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlanJuinaP/Auditoria-Compras_JuinaAlan/issues"
+  },
+  "homepage": "https://github.com/AlanJuinaP/Auditoria-Compras_JuinaAlan#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
