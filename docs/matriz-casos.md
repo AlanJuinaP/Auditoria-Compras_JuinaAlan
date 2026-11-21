@@ -39,7 +39,7 @@ Todos los casos comienzan con estado Pendiente, debido a que la ejecución se re
 | CP-13 | RF-05 | Prueba de datos no finitos | (Infinity, 2, 0) | Lanzar TypeError por precio no finito | Alta | Aprobado |
 | CP-14 | RF-05 | Prueba de datos no finitos | (10, Infinity, 0) | Lanzar TypeError por cantidad no finita | Alta | Aprobado |
 | CP-15 | RF-05 | Prueba de datos no finitos | (10, 2, NaN) | Lanzar TypeError por descuento no finito | Alta | Aprobado |
-| CP-16 | RNF-01 | Prueba de rendimiento exploratoria | Ejecutar repetidamente la función con (15, 3, 10) | Registrar el tiempo de ejecución y observar el comportamiento durante las repeticiones, sin establecer un umbral de aceptación no definido en la actividad | Media | Pendiente |
+| CP-16 | RNF-01 | Prueba de rendimiento exploratoria | Ejecutar repetidamente la función con (15, 3, 10) | Registrar el tiempo de ejecución y observar el comportamiento durante las repeticiones, sin establecer un umbral de aceptación no definido en la actividad | Media | Aprobado |
 
 ## 4. Técnicas aplicadas
 
