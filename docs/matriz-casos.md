@@ -28,17 +28,17 @@ Todos los casos comienzan con estado Pendiente, debido a que la ejecución se re
 | CP-02 | RF-02, RF-03 | Valor límite inferior | (20, 2, 0) | Retornar 40.00 sin aplicar descuento | Alta | Aprobado |
 | CP-03 | RF-01, RF-02, RF-03 | Partición de equivalencia | (100, 2, 25) | Retornar 150.00 | Alta | Aprobado |
 | CP-04 | RF-02, RF-03 | Valor límite superior | (50, 2, 100) | Retornar 0.00 | Alta | Aprobado |
-| CP-05 | RF-03 | Prueba de precisión decimal | (5.063, 2, 0) | Retornar 10.13 después del redondeo a dos decimales | Alta | Fallido |
-| CP-06 | RF-04 | Partición de equivalencia inválida | (-10, 2, 0) | Lanzar RangeError por precio negativo | Alta | FAllido |
-| CP-07 | RF-04 | Valor límite | (10, 0, 0) | Lanzar RangeError por cantidad igual a cero | Alta | Fallido |
-| CP-08 | RF-04 | Partición de equivalencia inválida | (10, -2, 0) | Lanzar RangeError por cantidad negativa | Alta | Fallido |
-| CP-09 | RF-04 | Valor límite inferior inválido | (10, 2, -1) | Lanzar RangeError por descuento menor que 0 | Alta | Fallido |
-| CP-10 | RF-04 | Valor límite superior inválido | (10, 2, 101) | Lanzar RangeError por descuento mayor que 100 | Alta | Fallido |
-| CP-11 | RF-05 | Partición de equivalencia inválida | ("diez", 2, 0) | Lanzar TypeError por precio no numérico | Alta | Fallido |
-| CP-12 | RF-05 | Prueba de datos no finitos | (NaN, 2, 0) | Lanzar TypeError por precio no finito | Alta | Fallido |
-| CP-13 | RF-05 | Prueba de datos no finitos | (Infinity, 2, 0) | Lanzar TypeError por precio no finito | Alta | Fallido |
-| CP-14 | RF-05 | Prueba de datos no finitos | (10, Infinity, 0) | Lanzar TypeError por cantidad no finita | Alta | Fallido |
-| CP-15 | RF-05 | Prueba de datos no finitos | (10, 2, NaN) | Lanzar TypeError por descuento no finito | Alta | Fallido |
+| CP-05 | RF-03 | Prueba de precisión decimal | (5.063, 2, 0) | Retornar 10.13 después del redondeo a dos decimales | Alta | Aprobado |
+| CP-06 | RF-04 | Partición de equivalencia inválida | (-10, 2, 0) | Lanzar RangeError por precio negativo | Alta | Aprobado |
+| CP-07 | RF-04 | Valor límite | (10, 0, 0) | Lanzar RangeError por cantidad igual a cero | Alta | Aprobado |
+| CP-08 | RF-04 | Partición de equivalencia inválida | (10, -2, 0) | Lanzar RangeError por cantidad negativa | Alta | Aprobado |
+| CP-09 | RF-04 | Valor límite inferior inválido | (10, 2, -1) | Lanzar RangeError por descuento menor que 0 | Alta | Aprobado |
+| CP-10 | RF-04 | Valor límite superior inválido | (10, 2, 101) | Lanzar RangeError por descuento mayor que 100 | Alta | Aprobado |
+| CP-11 | RF-05 | Partición de equivalencia inválida | ("diez", 2, 0) | Lanzar TypeError por precio no numérico | Alta | Aprobado |
+| CP-12 | RF-05 | Prueba de datos no finitos | (NaN, 2, 0) | Lanzar TypeError por precio no finito | Alta | Aprobado |
+| CP-13 | RF-05 | Prueba de datos no finitos | (Infinity, 2, 0) | Lanzar TypeError por precio no finito | Alta | Aprobado |
+| CP-14 | RF-05 | Prueba de datos no finitos | (10, Infinity, 0) | Lanzar TypeError por cantidad no finita | Alta | Aprobado |
+| CP-15 | RF-05 | Prueba de datos no finitos | (10, 2, NaN) | Lanzar TypeError por descuento no finito | Alta | Aprobado |
 | CP-16 | RNF-01 | Prueba de rendimiento exploratoria | Ejecutar repetidamente la función con (15, 3, 10) | Registrar el tiempo de ejecución y observar el comportamiento durante las repeticiones, sin establecer un umbral de aceptación no definido en la actividad | Media | Pendiente |
 
 ## 4. Técnicas aplicadas
